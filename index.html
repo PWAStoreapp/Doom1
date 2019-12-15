@@ -9,7 +9,20 @@
 		<meta name="author" content="" />
 		<meta name="robots" content="noindex, nofollow" />
 		<title>Doom 1</title>
-<link rel="manifest" href="manifest.webmanifest">		
+<link rel="manifest" href="manifest.webmanifest">
+<script>
+document.addEventListener('DOMContentLoaded', init, false);
+function init() {
+	if("serviceWorker" in navigator) {
+		navigator.serviceWorker.register('serviceworker.js')
+		.then((registration) => {
+			console.log('Service Worker installed!');
+		}).catch((err) => {
+			console.error('Service Worker failed', err);
+		});
+	}
+}
+</script>  		
 		<style>
 			html, body {
 				font-family: arial, sans-serif;
