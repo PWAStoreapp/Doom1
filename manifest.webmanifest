@@ -1,13 +1,13 @@
 {
 	"dir" : "ltr",
 	"lang" : "English",
-	"name" : "DosBox",
-	"scope" : "/DosBox/",
+	"name" : "Doom",
+	"scope" : "/Doom1/",
 	"display" : "fullscreen",
-	"start_url" : "https://pwastoreapp.github.io/DosBox/",
-	"short_name" : "DosBox",
+	"start_url" : "https://pwastoreapp.github.io/Doom1/",
+	"short_name" : "Doom",
 	"theme_color" : "transparent",
-	"description" : "Emulate Dos Games.",
+	"description" : "Doom",
 	"orientation" : "landscape",
 	"background_color" : "transparent",
 	"icons" : [
@@ -16,75 +16,75 @@
 			"sizes": "44x44"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "48x48"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "1240x600"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "300x300"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "150x150"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "88x88"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "24x24"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "50x50"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "620x300"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "192x192"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "144x144"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "96x96"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "72x72"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "36x36"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "1024x1024"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "180x180"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "152x152"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "120x120"
 		},
 		{
-			"src": "icon.png",
+			"src": "icon.gif",
 			"sizes": "76x76"
 		}],
 	"screenshots" : []
