@@ -2,6 +2,7 @@
 <!doctype html>
 <!--suppress HtmlFormInputWithoutLabel, JSDeprecatedSymbols -->
 <html lang="en-us">
+<div id="fullscreen">
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -258,3 +259,18 @@
 		<script async type="text/javascript" src="https://emupedia.net/beta/emuos/vfat/games/doom1/doom1.js"></script>
 	</body>
 </html>
+</div>
+<script>
+var elem = document.getElementById("fullscreen");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) { /* Firefox */
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+    elem.msRequestFullscreen();
+  }
+}
+</script>
